@@ -26,9 +26,10 @@ env/
 # =========================
 # Dataset
 # =========================
-data/raw/
-data/images/
-data/labels/
+dataset/raw/
+dataset/images/
+dataset/labels/
+dataset/processed
 
 # (if dataset is too large)
 *.zip
@@ -59,3 +60,4 @@ outputs/
 # =========================
 .DS_Store
 Thumbs.db
+archive
